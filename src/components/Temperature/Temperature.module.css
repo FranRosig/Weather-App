@@ -1,0 +1,14 @@
+.temp {
+    display: flex;
+    flex-direction: column;
+}
+
+.temp > label {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.temp > span {
+    font-weight: 700;
+    font-size: 2rem;
+}
