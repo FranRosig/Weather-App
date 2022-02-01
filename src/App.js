@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 import Cards from './components/Cards/Cards.jsx';
 import SearchBar from './components/SearchBar/SearchBar.jsx';
 
@@ -50,8 +49,10 @@ function App() {
 
   return (
     <div className="App">
-      <SearchBar onSearch={onSearch} />
-      <Cards cities={cities} onRemove={handleRemoveCity} />
+      <main>
+        <SearchBar onSearch={onSearch} />
+        <Cards cities={cities} onRemove={handleRemoveCity} />
+      </main>
     </div>   
   );
 }

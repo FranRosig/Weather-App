@@ -5,7 +5,8 @@ const Temperature = ({label, value}) => {
     return (
         <div className={styles.temp}>
             <label>{label}</label>
-            <span>{value}</span>
+            <br />
+            <span>{value}ºC</span>
         </div>
     )
 }

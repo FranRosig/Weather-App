@@ -14,8 +14,7 @@ export default function SearchBar({ onSearch }) {
 
   return (
     <form className={styles.search_box} onSubmit={handleOnSearch}>
-      <input className={styles.search_txt} id="search" type="text" placeholder='Search...'/>
-      
+      <input className={styles.search_input} id="search" autoComplete='off' type="text" placeholder='Search...'/>
     </form>
   );
 };

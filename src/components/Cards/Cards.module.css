@@ -1,5 +1,9 @@
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
+    
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
 }

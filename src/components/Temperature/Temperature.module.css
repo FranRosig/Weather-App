@@ -1,6 +1,5 @@
 .temp {
-    display: flex;
-    flex-direction: column;
+    grid-column: auto;
 }
 
 .temp > label {
